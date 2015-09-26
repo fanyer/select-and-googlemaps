@@ -9,7 +9,7 @@ function initialize() {
   var infowindow = new google.maps.InfoWindow({
           map: map,
           position: siberia,
-          content: 'Location found using HTML5.'
+          content: 'will display a list of advertisement, which can be further filtered.'
         });
 
   var marker =  new google.maps.Marker({
@@ -22,7 +22,7 @@ function initialize() {
 }
   google.maps.event.addDomListener(window, 'load', initialize);
 
-var x = document.getElementById("current-location"),
+/*var x = document.getElementById("current-location"),
 currentLocation;
 function getLocation() {
     if (navigator.geolocation) {
@@ -58,4 +58,4 @@ function initialize() {
   });
   map.setCenter(currentLocation);
 
-}
+}*/
